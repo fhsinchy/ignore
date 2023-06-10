@@ -24,7 +24,7 @@ def main():
                                 headers={ 'Accept': 'application/vnd.github+json' })
                 
                 if response.status_code == 404:
-                    exit(f"NO TEMPLATE FOUND FOR: {template}")
+                    exit(f"NO TEMPLATE FOUND FOR: {argument}")
 
                 try:
                     remove(file_name)
