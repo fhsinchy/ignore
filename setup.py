@@ -10,7 +10,7 @@ with open(os.path.join(HERE, "README.md")) as fid:
 
 # This call to setup() does all the work
 setup(
-    name="tocgen",
+    name="ignore",
     version="1.0.0",
     description="generates a .gitignore file using a given template name",
     long_description=README,
