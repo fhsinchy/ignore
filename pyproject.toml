@@ -28,4 +28,4 @@ dev = ["pip-tools"]
 Homepage = "https://github.com/fhsinchy/ignore"
 
 [project.scripts]
-ignore = "ignore.__main__:main"
+ignore = "ignore:main"
