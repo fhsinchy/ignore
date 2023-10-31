@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ignore"
-version = "1.0.0"
+version = "1.0.1"
 description = "generates a .gitignore files"
 readme = "README.md"
 authors = [{ name = "Farhan Hasin Chowdhury", email = "shovik.is.here@gmail.com" }]
